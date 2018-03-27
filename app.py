@@ -40,7 +40,7 @@ def newsreader():
     query = request.args.get('query')
     if query is None:
       return 'No provided.', 400
-    result = SL.news_check(query)
+    result = SL.news_check(SL.morphological_analysis(query))
     if result is None:
       return 'not found : %s' % query, 400
     return result, 200
@@ -52,7 +52,7 @@ def newsreader_debug():
     query = request.args.get('query')
     if query is None:
       return 'No provided.', 400
-    result = SL.news_check(query, debug=True)
+    result = SL.news_check(SL.morphological_analysis(query), debug=True)
     if result is None:
       return 'not found : %s' % query, 400
     return result, 200
