@@ -3,4 +3,4 @@ pandas==0.22.0
 flask==0.12.2
 gunicorn==19.7.1
 Tokenizer==0.1.3
-BeautifulSoup==4.4.0
+BeautifulSoup==4.6.0
