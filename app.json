@@ -1,7 +1,7 @@
 {
-  "name": "API.AI webhook demonstration",
+  "name": "API.AI demonstration",
   "description": "API.AI webhook demonstration",
-  "repository": "https://github.com/k701/sports-agent",
+  "repository": "https://github.com/K701user/sports-agent",
   "logo": "http://xvir.github.io/img/apiai.png",
   "keywords": ["api.ai", "natural language"]
 }
